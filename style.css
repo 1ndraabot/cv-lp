@@ -11,9 +11,26 @@ img {
 }
 
 .headingBos {
-    font-weight: 800;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(27, 27, 27);
-    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #2100E9;
+    font-size: 28px;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1b1b1b;
+}
+
+.subHead {
+    color: #808080;
+    font-size: 20px;
+}
+
+.miniSubHead {
+    color: #808080;
+    font-size: 12px;
 }
 
