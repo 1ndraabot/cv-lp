@@ -3,12 +3,14 @@
     src: url('./fonts/Montserrat.ttf') format('truetype');
 }
 
-img {
-    object-fit: cover;
-    border-radius: 100%;
+a {
+    text-decoration: none;
+    color: #1b1b1b;
 }
 
 .containerr {
+    min-width: 100vw;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     margin-left: 80px;
@@ -30,12 +32,28 @@ img {
 }
 
 .subHead {
+    font-family: 'Montserrat', sans-serif;
+    color: #1b1b1b;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.subHead2 {
+    font-family: 'Montserrat', sans-serif;
     color: #808080;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .miniSubHead {
     color: #808080;
     font-size: 12px;
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
