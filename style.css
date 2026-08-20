@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat.ttf') format('truetype');
+}
+
 img {
     object-fit: cover;
     border-radius: 100%;
